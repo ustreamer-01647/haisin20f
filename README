@@ -1,0 +1,28 @@
+haisin20f
+
+#機能
+画面に表示される数値を監視し，指定した数値になったとき，なんらかのプログラムを実行できる．
+
+#開発環境
+Windows 7 x64 Professionalで開発している．
+下記のライブラリを使用している．
++Qt SDK 1.2 http://qt.nokia.com
+++Qt 4.8
+++MinGW
++OpenCV 2.3.1 http://opencv.willowgarage.com/wiki/
+
+#必要な外部ファイルとそのファイル名の例
++MinGW
+++mingwm10.dll
++OpenCV 2.3.1
+++libopencv_highgui231.dll
+++libopencv_imgproc231.dll
+++libopencv_core231.dll
+
+#ライセンス
++haisin20f
+++修正BSDライセンス
++MinGW runtime
+++Public Domain
++OpenCV
+++BSD Licence
